@@ -16,41 +16,46 @@ Pandas, Matplotlib, Seaborn, Scikit-Learn
 
 ## Approach
 1. Data Preprocessing
-	•	Removed irrelevant columns (Customer ID, Gender)
-	•	Selected important features:
-	  •	Age
-	  •	Annual Income
-	  •	Spending Score
-	•	Scaled data using StandardScaler
+	- Removed irrelevant columns (Customer ID, Gender)
+	- Selected important features:
+		- Age
+	 	- Annual Income
+	    - Spending Score
+	- Scaled data using StandardScaler
 
 2. Finding Optimal Clusters
-	•	Used Elbow Method (Inertia)
-	•	Used Silhouette Score for validation
-	•	Final choice: k = 5
+	- Used Elbow Method (Inertia)
+	- Used Silhouette Score for validation
+	- Final choice: k = 5
 
 3. Model Building
-	•	Applied K-Means clustering
-	•	Generated cluster labels for each customer
+   - Applied K-Means clustering
+	- Generated cluster labels for each customer
 
 4. Visualization
-	•	Used PCA to reduce dimensions (3D → 2D)
-	•	Visualized clusters using scatter plots
+	- Used PCA to reduce dimensions (3D → 2D)
+	- Visualized clusters using scatter plots
 
 ## Customer Segments
 - **Cluster 0: Mid-Income High Spenders**
-  Customers with moderate income but high spending behavior.  
+  Customers with moderate income but high spending behavior.
+   
   Ideal targets for promotions, discounts, and loyalty programs.   
 - **Cluster 1: Older Low Spenders**
-  Older customers with low spending despite moderate income.  
+  Older customers with low spending despite moderate income.
+  
   Less responsive to marketing; focus on essential-value offerings.
 - **Cluster 2: Wealthy Conservative Seniors**
-  High-income senior customers with low spending patterns.  
+  High-income senior customers with low spending patterns.
+  
   High potential segment; can be targeted with personalized premium offers.
 - **Cluster 3: Young High-Income Moderate Spenders**
-  Younger customers with high income and moderate spending.  
+  Younger customers with high income and moderate spending.
+   
   Suitable for upselling and premium product marketing.
 - **Cluster 4: Senior Premium Customers**
-  Older customers with high income and high spending behavior.  
+  Older customers with high income and high spending behavior.
+   
   Most valuable segment; focus on retention and exclusive services.
 
 ## Business Impacts
