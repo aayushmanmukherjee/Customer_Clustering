@@ -63,7 +63,7 @@ Pandas, Matplotlib, Seaborn, Scikit-Learn
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/aayushmanmukherjee/Walmart_Analysis_Python_SQL.git
+   git clone https://github.com/aayushmanmukherjee/Customer_Clustering.git
    ```
 2. Install Python libraries in a virtual environment:
 
